@@ -14,8 +14,7 @@ VOLSIGN='<span foreground="#FFFFFF">🔊 </span>'
  if [ $((VOL)) -le 90 ]; then
      echo $VOLSIGN $YELLOW$VOL$SIGN$SUFFIX
      exit
- fi
- if [ $((VOL)) -le 100 ]; then
+ else
       echo $VOLSIGN $RED$VOL$SIGN$SUFFIX
       exit
  fi

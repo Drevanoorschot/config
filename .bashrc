@@ -123,3 +123,9 @@ export PS1="\[$(tput bold)\]\[\033[38;5;33m\]\u@\h\[$(tput sgr0)\]\[\033[38;5;9m
 export PATH="$PATH:$HOME/.rvm/bin"
 
 alias netrst="sudo service network-manager restart"
+
+if [ -n "$DISPLAY" ]; then
+  xset b off
+fi
+
+export PATH="~/bin:$PATH"

@@ -49,16 +49,16 @@ markup=pango
 label=STATE:
 
 [battery1]
-label=BAT1:
+label=BAT:
 command=~/.config/i3/scripts/battery1.sh
 interval=1
 markup=pango
 
-[battery2]
-label=BAT2:
-command=~/.config/i3/scripts/battery2.sh
-interval=1
-markup=pango
+#[battery2]
+#label=BAT2:
+#command=~/.config/i3/scripts/battery2.sh
+#interval=1
+#markup=pango
 
 [brightness]
 interval=1
